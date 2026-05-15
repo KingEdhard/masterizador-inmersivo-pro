@@ -1,0 +1,26 @@
+# Entorno virtual
+venv/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Binarios de FFmpeg (se descargan con setup.sh / setup.ps1)
+bin/ffmpeg.exe
+bin/ffprobe.exe
+
+# Archivos temporales y scripts de construcción
+*.tmp
+lista_temp.txt
+*.save
+reconstruir.sh
+crear_proyecto.sh.save
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
