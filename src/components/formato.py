@@ -8,10 +8,10 @@ def elegir_formato_y_nombre(archivo_ref, carpeta_salida, resolucion, pistas, can
     """
     # Elegir formato
     raw = input_validado(
-        "👉 ¿Formato de salida? (1=mp4, 2=mkv) [mp4]: ",
-        opciones_validas=['1', '2', 'mp4', 'mkv', ''],
-        defecto='mp4',
-        map_alias={'1': 'mp4', '2': 'mkv'}
+    "👉 ¿Formato de salida? (1=mkv, 2=mp4) [mp4]: ",
+    opciones_validas=['1', '2', 'mkv', 'mp4', ''],
+    defecto='mp4',
+    map_alias={'1': 'mkv', '2': 'mp4'}
     )
     formato_salida = raw if raw in ('mp4', 'mkv') else 'mp4'
 
